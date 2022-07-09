@@ -22,8 +22,6 @@ With **IPPT Anywherez**, you can check your pushups/situps form anywhere, anytim
 ![Real-Time Demostration](https://github.com/btjm123/ippt-machine/blob/master/output.gif)
 
 
-Thank you!
-
 
 
 
