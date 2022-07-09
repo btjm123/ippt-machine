@@ -21,6 +21,9 @@ stage = None
 counter = 0
 angle2 = 0
 # Video Feed
+# Define the codec and create VideoWriter object
+fourcc = cv2.VideoWriter_fourcc(*'XVID')
+out = cv2.VideoWriter('output.avi',fourcc, 20.0, (640,480))
 cap = cv2.VideoCapture("data/pushups.mp4")
 with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as pose:
     while cap.isOpened():
@@ -91,6 +94,7 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
                                   mp_drawing.DrawingSpec(color=(245, 66, 230), thickness=2, circle_radius=2)
                                   )
 
+        out.write(image)
         cv2.imshow("MediaPipe Feed", image)
 
         if cv2.waitKey(10) & 0xFF == ord('q'):
