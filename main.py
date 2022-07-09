@@ -22,8 +22,7 @@ counter = 0
 angle2 = 0
 # Video Feed
 # Define the codec and create VideoWriter object
-fourcc = cv2.VideoWriter_fourcc(*'XVID')
-out = cv2.VideoWriter('output.avi',fourcc, 20.0, (640,480))
+out = cv2.VideoWriter('output.avi', -1, 20.0, (640,480))
 cap = cv2.VideoCapture("data/pushups.mp4")
 with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as pose:
     while cap.isOpened():
@@ -95,12 +94,13 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
                                   )
 
         out.write(image)
-        cv2.imshow("MediaPipe Feed", image)
+        cv2.imshow("IPPT Tracker", image)
 
         if cv2.waitKey(10) & 0xFF == ord('q'):
             break
 
 cap.release()
+out.release()
 cv2.destroyAllWindows()
 
 
