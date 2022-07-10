@@ -9,7 +9,7 @@ Open source IPPT Machine
 |   ||    |    |    |     |    |    /    |    \   |  \___  | \     /|   Y  \  ___/|  | \/\  ___/ /    / 
 |___||____|    |____|     |____|    \____|__  /___|  / ____|  \/\_/ |___|  /\___  >__|    \___  >_____ \
                                             \/     \/\/                  \/     \/            \/      \/                                                                                                                                                                                            
-```
+
 ## Introduction
 IPPT Anywherez is a fully open-source IPPT Machine Tracker for us NSFs and NSMen alike. ~~It is created because we can't pass our IPPT~~ 
 
@@ -21,6 +21,11 @@ Gone are the days where you have to travel to Kranji/Maju Camp or book an expens
 With **IPPT Anywherez**, you can check your pushups/situps form anywhere, anytime! 
 
 ![Real-Time Demostration](https://github.com/btjm123/ippt-machine/blob/master/output.gif)
+
+## The power of meth
+We exploit trigonometry to find the magnitude of the angle between the forearm and bicep from the coordinates of elbow, shoulder and hand. 
+
+```<img width="1104" alt="Screenshot 2022-07-10 at 7 09 08 PM" src="https://user-images.githubusercontent.com/19306879/178142761-5b8554f9-c399-42e5-83e7-32facc72f6c0.png">
 
 
 
