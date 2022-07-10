@@ -24,7 +24,7 @@ With **IPPT Anywherez**, you can check your pushups/situps form anywhere, anytim
 ![Real-Time Demostration](https://github.com/btjm123/ippt-machine/blob/master/output.gif)
 
 ## The power of meth
-We exploit trigonometry to find the magnitude of the angle between the forearm and bicep from the coordinates of elbow, shoulder and hand. 
+We exploit trigonometry to find the magnitude of the angle between the forearm and bicep from the normalized window coordinates of elbow, shoulder and hand. Following which, we render the real-time angle at the upscaled coordinates (relative to the size of the video capture) of the elbow.
 
 <img width="1104" alt="Screenshot 2022-07-10 at 7 09 08 PM" src="https://user-images.githubusercontent.com/19306879/178142761-5b8554f9-c399-42e5-83e7-32facc72f6c0.png">
 
